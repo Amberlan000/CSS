@@ -1,0 +1,47 @@
+/* Global styles */
+body {
+    color: white;
+    background-color: #333;
+    font-family: "Helvetica", sans-serif;
+    }
+
+/* Heading styles */
+h1 {
+    font-family: "Arial", sans-serif;
+    }  
+
+/* Navbar styles */
+.navbar {
+    position: relative;
+    top: 1em;
+    left: 1em;
+    width: 10em;
+    }
+ul {
+    class: "navbar" 
+    position:"relative" 
+    top:"1em" 
+    left:"1em" 
+    width:"10em"
+    }
+
+
+
+@media all {
+    h1 {
+        text-decoration: underline;
+    }
+
+    p {
+        line-height: 1.5; /* Adjust line height for all media types */
+    }
+}
+
+
+@media print {
+    body {
+        font-size: 25pt; 
+    }
+
+
+}
